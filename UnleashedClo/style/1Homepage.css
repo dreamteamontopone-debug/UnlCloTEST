@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    background-color: rgba(136, 127, 127, 0.618);
+}
+
+.fulllayout{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    margin: 20px;
+}
+
+.slider1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prev, .next{
+    border-radius: 100px;
+}
+
+.sliderpic{
+    width: 1000px;
+}

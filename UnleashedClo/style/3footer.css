@@ -1,0 +1,28 @@
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    float: left;
+    gap: 20px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+.logof{
+    width: 150px;
+    height: 100px;
+}
+
+@import url(https://fonts.google.com/specimen/Condiment?categoryFilters=Feeling:%2FExpressive%2FActive);
+
+.navs{
+    float: left;
+    /* text-decoration: none;
+    font-family: 'Condiment', cursive;
+    font-size: 1.4em;
+    font-weight: 400; */
+}
